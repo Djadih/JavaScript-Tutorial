@@ -19,16 +19,24 @@
 // Reference Types (objects)
 // let name = 'Hussam';
 // let age = 30;
-let person = {
-    name: 'Hussam',
-    age: 30
-}
+// let person = {
+//     name: 'Hussam',
+//     age: 30
+// }
 
-// Dot notation
-person.name = 'John';
+// // Dot notation
+// person.name = 'John';
 
-// Bracket notation
-let selection = 'name'
-person[selection] = 'Phil';
+// // Bracket notation
+// let selection = 'name'
+// person[selection] = 'Phil';
 
-console.log(person['name']);
+// console.log(person['name']);
+
+let selectedColors = ['red', 'blue'];
+selectedColors[2] = 'green';
+selectedColors[3] = 3;
+console.log(selectedColors);
+
+console.log(typeof selectedColors);
+console.log(selectedColors.length);
