@@ -33,10 +33,22 @@
 
 // console.log(person['name']);
 
-let selectedColors = ['red', 'blue'];
-selectedColors[2] = 'green';
-selectedColors[3] = 3;
-console.log(selectedColors);
+// let selectedColors = ['red', 'blue'];
+// selectedColors[2] = 'green';
+// selectedColors[3] = 3;
+// console.log(selectedColors);
 
-console.log(typeof selectedColors);
-console.log(selectedColors.length);
+// console.log(typeof selectedColors);
+// console.log(selectedColors.length);
+
+function greet(personName, lastName) {
+    console.log('Hello ' + personName + ' ' + lastName);
+}
+greet('Hussam', 'Djadi');
+greet('John', 'Smith');
+
+function square(number) {
+    return number * number;
+}
+
+console.log(square(3));
