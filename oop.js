@@ -24,7 +24,7 @@ function createCircle(radius) {
 }
 
 const circle = createCircle(1)
-console.log(circle);
+// console.log(circle);
 
 // Constructor function
 function Circle(radius) {
@@ -35,3 +35,10 @@ function Circle(radius) {
     }
 }
 const another = new Circle(1);
+
+// console.log(circle.constructor);
+// console.log(another.constructor);
+
+for (let key in circle) {
+    console.log(key);
+}
